@@ -36,10 +36,33 @@ const renderTasks = () => {
     saveToLocal();
 };
 
+// --- Lógica del Modal Personalizado ---
+const modal = document.getElementById('customModal');
+const modalText = document.getElementById('modalText');
+
+function showModal(message) {
+    modalText.innerText = message;
+    modal.style.display = 'flex'; // Hacemos visible el modal
+}
+
+function closeModal() {
+    modal.style.display = 'none'; // Ocultamos el modal
+}
+
+// Cerramos el modal si hacen clic fuera de la cajita (en el fondo oscuro)
+window.onclick = function(event) {
+    if (event.target === modal) {
+        closeModal();
+    }
+}
+
+// --- Modificamos la función addTask para usar el nuevo modal ---
 const addTask = () => {
     const text = taskInput.value.trim();
+    
     if (text === '') {
-        alert("ERROR: Input vacío.");
+        // AQUÍ ESTÁ EL CAMBIO: Usamos showModal en vez de alert
+        showModal("ERROR: Input vacío. Ingrese datos de misión."); 
         return;
     }
 
