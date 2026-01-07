@@ -26,16 +26,16 @@ Este proyecto de **DAW 2** demuestra el dominio de la manipulación del DOM, la 
 
 ## 📸 Capturas / Screenshots
 
-![alt text](image-1.png)
+![alt text](image.png)
 
-## 🔧 Instalación y Uso / Setup
+### 🟢 Live Demo (Vercel)
+Puedes probar la aplicación funcionando en el siguiente enlace:
+👉 **[Acceder a CYBER_TASK](https://cyber-task-v2.vercel.app/)**
 
-1.  **Clonar el repositorio:**
-    ```bash
-    git clone [https://github.com/tu-usuario/cyber_task.git](https://github.com/tu-usuario/cyber_task.git)
-    ```
-2.  **Ejecutar:**
-    Simplemente abre el archivo `index.html` en tu navegador web. No requiere servidor ni instalación de dependencias.
+### 💻 Instalación Local (Desarrollo)
+Si prefieres ejecutar el código en tu máquina:
+1.  **Clonar:** `git clone https://github.com/AlexSfc04/CYBER_TASK.git`
+2.  **Ejecutar:** Abre el archivo `index.html` en tu navegador.
 
 ## 📂 Estructura del Proyecto
 
