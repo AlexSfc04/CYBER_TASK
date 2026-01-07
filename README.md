@@ -3,45 +3,45 @@
 > **System Status:** ONLINE  
 > **Mission:** Task Management & Persistence
 
-## 📄 Descripción / Description
+## 📄 Description
 
-**CYBER_TASK v2.0** es una aplicación web de gestión de tareas (To-Do List) desarrollada con una estética **Cyberpunk / Hacker Terminal**. 
+**CYBER_TASK v2.0** is a web-based task management application (To-Do List) developed with a **Cyberpunk / Hacker Terminal** aesthetic.
 
-Este proyecto de **DAW 2** demuestra el dominio de la manipulación del DOM, la persistencia de datos mediante **LocalStorage** y el diseño de interfaces modernas sin depender de frameworks externos. La aplicación simula una consola de sistema, ofreciendo feedback visual inmediato y alertas personalizadas.
+This **DAW 2** project demonstrates mastery of DOM manipulation, data persistence via **LocalStorage**, and modern interface design without relying on external frameworks. The application simulates a system console, offering immediate visual feedback and custom alerts.
 
-## 🚀 Características / Features
+## 🚀 Features
 
-* **Gestión de Estado (CRUD):** Añadir, listar, completar y eliminar misiones.
-* **Persistencia Local:** Las tareas se guardan automáticamente.
-* **Sistema de Alertas:** Ventana emergente (Modal) personalizada para errores.
-* **Diseño Responsive:** Interfaz adaptable ("Mobile First").
-* **UI Cyberpunk:** Modo oscuro con acentos verde neón.
+* **State Management (CRUD):** Add, list, complete, and delete missions.
+* **Local Persistence:** Tasks are saved automatically.
+* **Alert System:** Custom pop-up window (Modal) for errors.
+* **Responsive Design:** Adaptive interface ("Mobile First").
+* **Cyberpunk UI:** Dark mode with neon green accents.
 
-## 🛠️ Tecnologías / Tech Stack
+## 🛠️ Tech Stack
 
-* **HTML5:** Estructura semántica con integración de iconos.
-* **CSS3:** Estilos personalizados en `styles.css` (Variables, Flexbox, Modals).
-* **JavaScript (ES6+):** Lógica en `app.js` para gestión del DOM y eventos.
-* **Font Awesome:** Iconografía para elementos de interfaz (Biohazard, Trash, Check, etc.).
+* **HTML5:** Semantic structure with icon integration.
+* **CSS3:** Custom styles in `styles.css` (Variables, Flexbox, Modals).
+* **JavaScript (ES6+):** Logic in `app.js` for DOM management and events.
+* **Font Awesome:** Iconography for interface elements (Biohazard, Trash, Check, etc.).
 
-## 📸 Capturas / Screenshots
+## 📸 Screenshots
 
 ![alt text](image.png)
 
 ### 🟢 Live Demo (Vercel)
-Puedes probar la aplicación funcionando en el siguiente enlace:
-👉 **[Acceder a CYBER_TASK](https://cyber-task-v2.vercel.app/)**
+You can test the running application at the following link:
+👉 **[Access CYBER_TASK](https://cyber-task-v2.vercel.app/)**
 
-### 💻 Instalación Local (Desarrollo)
-Si prefieres ejecutar el código en tu máquina:
-1.  **Clonar:** `git clone https://github.com/AlexSfc04/CYBER_TASK.git`
-2.  **Ejecutar:** Abre el archivo `index.html` en tu navegador.
+### 💻 Local Installation (Development)
+If you prefer to run the code on your machine:
+1.  **Clone:** `git clone https://github.com/AlexSfc04/CYBER_TASK.git`
+2.  **Run:** Open the `index.html` file in your browser.
 
-## 📂 Estructura del Proyecto
+## 📂 Project Structure
 
 ```text
 CYBER_TASK/
-├── index.html      # Estructura principal y Modal HTML
-├── styles.css      # Hoja de estilos (Tema oscuro y Modal)
-├── app.js          # Lógica de negocio y LocalStorage
-└── README.md       # Documentación del proyecto
+├── index.html      # Main structure and HTML Modal
+├── styles.css      # Stylesheet (Dark theme and Modal)
+├── app.js          # Business logic and LocalStorage
+└── README.md       # Project documentation
