@@ -101,27 +101,23 @@ ul {
     color: black;
 }
 
-/* --- Estilos de la Ventana Emergente (Modal) --- */
-
-/* El fondo oscuro que cubre toda la pantalla */
 .modal-overlay {
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.85); /* Fondo casi negro transparente */
-    display: none; /* Oculto por defecto */
+    background: rgba(0, 0, 0, 0.85); 
+    display: none; 
     justify-content: center;
     align-items: center;
-    z-index: 1000; /* Para que quede encima de todo */
+    z-index: 1000; 
 }
 
-/* La cajita del mensaje */
 .modal-box {
     background: #0d1117;
-    border: 2px solid #ff0055; /* Borde rojo/rosa de error */
-    box-shadow: 0 0 20px #ff0055; /* Resplandor rojo */
+    border: 2px solid #ff0055; 
+    box-shadow: 0 0 20px #ff0055; 
     padding: 20px;
     width: 300px;
     text-align: center;
@@ -139,7 +135,6 @@ ul {
     padding-bottom: 10px;
 }
 
-/* El botón de cerrar dentro del modal */
 .modal-box button {
     background: transparent;
     border: 1px solid #ff0055;
