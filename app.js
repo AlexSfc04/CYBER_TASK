@@ -31,7 +31,8 @@ const renderTasks = () => {
         taskList.appendChild(li);
     });
 
-    statusText.innerText = `${tasks.length} active missions in memory.`;
+    const n = tasks.length;
+    statusText.innerText = `${n} ${n === 1 ? 'misión activa' : 'misiones activas'} en memoria.`;
     saveToLocal();
 };
 
