@@ -32,7 +32,8 @@ const renderTasks = () => {
     });
 
     const n = tasks.length;
-    statusText.innerText = `${n} ${n === 1 ? 'misión activa' : 'misiones activas'} en memoria.`;
+    statusText.innerText = `${n} ${n === 1 ? 
+'active mission' : 'active missions'} in memory.`;
     saveToLocal();
 };
 
@@ -62,7 +63,7 @@ const addTask = () => {
     
     if (text === '') {
         // AQUÍ ESTÁ EL CAMBIO: Usamos showModal en vez de alert
-        showModal("ERROR: Input vacío. Ingrese datos de misión."); 
+        showModal("Empty input field. Enter mission data."); 
         return;
     }
 
